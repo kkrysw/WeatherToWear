@@ -12,7 +12,8 @@ Another significant aspect of our machine learning implementation is its adaptiv
 The integration of the FashionCLIP model into our backend allows us to categorize clothing items with high precision across multiple dimensions such as style, color, and weather appropriateness. For instance, when a user specifies a preference for a "bohemian" style of a "breathable" quality for the weather, the model can efficiently filter through thousands of items to suggest the most suitable outfits. This capability is supported by the model's training on a diverse set of fashion images and descriptive tags, enabling it to comprehend and predict user preferences with remarkable accuracy.
 
 # Backend/Frontend Overview  
-- Backend: Our backend consists of the classified dataset which enhances user experience by allowing precise outfit recommendations based on weather conditions and personal style.
+Backend: Our backend consists of the classified dataset which enhances user experience by allowing precise outfit recommendations based on weather conditions and personal style.
+
 Frontend: Developed using Streamlit and ngrok in Google Colab, our frontend comprises three main pages:
 - Welcome: A minimalistic introduction featuring an image collage from Rent the Runway.
 - Try it Out: Users are asked about their temperature preferences, then prompted by a button to gain access to their current location and weather conditions. Then, they select their stylistic preferences. All of these details interface with our backend to output an example image of a possible outfit.
